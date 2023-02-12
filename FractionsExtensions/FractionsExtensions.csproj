@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FractionsClass" Version="1.0.0-CI-20230212-121852" />
+  </ItemGroup>
+
 </Project>

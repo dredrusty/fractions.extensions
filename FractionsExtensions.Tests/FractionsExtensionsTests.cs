@@ -1,3 +1,5 @@
+using Fractions;
+using Fractions.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace FractionsExtensions.Tests;
