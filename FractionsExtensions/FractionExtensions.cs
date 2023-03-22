@@ -3,7 +3,7 @@
 public static class FractionExtensions
 {
     /// <summary>
-    /// Create a new revert fraction from another fraction.
+    /// Swaps numerator and denominator of the passed fraction and returns a new fraction.
     /// </summary>
     /// <param name="fraction"></param>
     /// <returns>Return</returns>
