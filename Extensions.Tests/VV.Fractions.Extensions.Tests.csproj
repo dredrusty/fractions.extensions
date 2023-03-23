@@ -13,6 +13,7 @@
     <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
     <PackageReference Include="MSTest.TestFramework" Version="3.0.2" />
     <PackageReference Include="VV.Fractions" Version="2.0.0-CI-20230323-095553" />
+    <PackageReference Include="VV.Fractions.CommonMath" Version="1.0.0-CI-20230323-074055" />
   </ItemGroup>
 
   <ItemGroup>
