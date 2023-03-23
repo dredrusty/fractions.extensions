@@ -1,5 +1,8 @@
 ﻿namespace Fractions.Extensions;
 
+/// <summary>
+/// Implents extension method Revert().
+/// </summary>
 public static class FractionsExtensions
 {
     /// <summary>
