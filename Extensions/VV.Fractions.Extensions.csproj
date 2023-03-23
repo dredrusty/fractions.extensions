@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="VV.Fraction" Version="2.0.0-CI-20230315-190652" />
-    <PackageReference Include="VV.Fractions.CommonMath" Version="1.0.0-CI-20230315-162111" />
+    <PackageReference Include="VV.Fractions" Version="2.0.0-CI-20230323-095553" />
   </ItemGroup>
 
 </Project>
