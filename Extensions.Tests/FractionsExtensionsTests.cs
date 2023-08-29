@@ -1,6 +1,6 @@
 using Fractions;
-using Fractions.Extensions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using VV.Fractions.Extensions;
 
 namespace FractionsExtensions.Tests;
 

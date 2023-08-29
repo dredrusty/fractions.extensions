@@ -1,19 +1,21 @@
-﻿namespace Fractions.Extensions;
+﻿using Fractions;
+
+namespace VV.Fractions.Extensions;
 
 /// <summary>
-/// Implents extension method Revert().
+/// Implements extension method Revert().
 /// </summary>
 public static class FractionsExtensions
 {
     /// <summary>
-    /// Swaps numerator and denominator of the passed fraction and returns a new fraction.
+    /// Flips numerator and denominator of the given fraction.
     /// </summary>
-    /// <param name="fraction"></param>
-    /// <returns>Return</returns>
+    /// <param name="fraction">Fraction to be revert.</param>
+    /// <returns>Returns a new fraction as a result of flipping the given fraction.</returns>
     public static Fraction Revert(this Fraction fraction)
     {
-        int numerator = fraction.Denominator;
-        int denominator = fraction.Numerator;
+        var numerator = fraction.Denominator;
+        var denominator = fraction.Numerator;
 
         return new Fraction(numerator, denominator);        
     }
