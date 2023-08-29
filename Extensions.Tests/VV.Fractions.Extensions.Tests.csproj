@@ -9,15 +9,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="coverlet.collector" Version="3.2.0">
+    <PackageReference Include="coverlet.collector" Version="6.0.0">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.6.0" />
-    <PackageReference Include="MSTest.TestAdapter" Version="3.0.2" />
-    <PackageReference Include="MSTest.TestFramework" Version="3.0.2" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0-preview-23424-02" />
+    <PackageReference Include="MSTest.TestAdapter" Version="3.1.1" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.1.1" />
     <PackageReference Include="ReportGenerator" Version="5.1.20" />
-    <PackageReference Include="VV.DataTypes.Fractions" Version="2.0.0-CI-20230517-164814" />
+    <PackageReference Include="VV.DataTypes.Fractions" Version="2.0.0-CI-20230517-170400" />
     <PackageReference Include="VV.Fractions.CommonMath" Version="1.0.0-CI-20230508-114825" />
   </ItemGroup>
 
